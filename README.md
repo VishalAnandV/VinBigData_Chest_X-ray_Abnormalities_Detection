@@ -1,2 +1,6 @@
 # VinBigData-Chest-X-ray-Abnormalities-Detection
-VinBigData Chest X-ray Abnormalities Detection is a computer vision project aimed at developing a model that can automatically detect abnormalities in chest Xrays.
+  VinBigData Chest X-ray Abnormalities Detection is a computer vision project aimed at developing a model that can automatically detect abnormalities in chest Xrays. The project is part of a competition organized by VinBigData, a Vietnamese company focused on developing AI technologies for healthcare.
+
+  The dataset used for the project contains over 18,000 chest X-rays, with labels indicating the presence or absence of 14 different abnormalities. The abnormalities include Aortic enlargement, Atelectasis, Calcification, Cardiomegaly, Consolidation, ILD, Infiltration, Lung Opacity, Nodule/Mass, Other lesion, Pleural effusion, Pleural thickening, Pneumothorax, Pulmonary fibrosis.
+
+  The YOLOv5 object detection model developed by Ultralytics is utilised in this project to identify abnormalities in chest radiographs. The model is trained on a subset of the total number of independently labelled images and validated on a set of test images, with a split ratio of 80% for the training set and 20% for the validation set. The accuracy and precision are used to assess its performance of the model's results, as well as its limitations and prospective enhancements.
